@@ -1,0 +1,31 @@
+#quiensoy {
+    color: rgba(154, 128, 174, 1);
+    font-size: 28px;
+    background-color: white;
+}
+
+.quiensoy{
+    max-width: 1040px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 1rem;
+    padding: 40px;
+}
+
+.quiensoy-article{
+    width: 50%;
+}
+
+#parrafo{
+    color: black;
+    font-size: 25px;
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.img1{
+    width: 50%;
+}

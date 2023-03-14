@@ -1,0 +1,110 @@
+#portafolio1{
+    background-color: rgba(255, 235, 241, 1);
+    flex-direction: column; 
+    min-height: 100vh;
+    display: flex; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    max-width: 1040px;
+}
+
+#portafolio1 span{
+    background-color: rgba(247, 241, 255, 1);
+    border-radius: 1rem;
+    border: 2px solid rgba(154, 128, 174, 1);
+    padding: 0.75rem; 
+    font-size: 16px;
+    cursor: pointer;
+    color: rgba(154, 128, 174, 1);
+    width: 8rem;
+}
+
+#portafolio1 article h1{
+    color: rgba(154, 128, 174, 1);
+}
+
+#proyects{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#portafolio1 article picture{
+    width: 262px;
+    display: block;
+}
+
+#portafolio1 article nav{
+    display: flex;
+    gap: 43px;
+}
+
+.buttom-git{
+    background-color:#DC96BD;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.buttom-repro{
+    background-color:white;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgba(154, 128, 174, 1);
+}
+
+.boton-proyecto{
+    display: flex;
+    gap: 43px;
+}
+
+.buttom-QR{
+    background-color:#DC96BD;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.bot-QR{
+    background-color:white;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgba(154, 128, 174, 1);
+}
+
+.boton-perfume{
+    display: flex;
+    gap: 43px;
+}
+
+.buttom-perfum{
+    background-color:#DC96BD;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.buttom-perfu{
+    background-color:white;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgba(154, 128, 174, 1);
+}
+

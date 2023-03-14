@@ -1,0 +1,35 @@
+#habilidades{
+    background-color: #FFFFFF; 
+    width: 100%; 
+ }  
+
+.lenguajes-habilidades{
+    display: flex;
+    max-width: 1040px;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 1rem;
+    padding: 40px;
+}
+
+#habilidades article h2{
+    font-size: 32px;
+}
+
+#habilidades picture {
+    display: block;   
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 1rem; 
+}
+
+#habilidades picture img {
+    width:40%;
+}
+
+#habilidades picture img:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}

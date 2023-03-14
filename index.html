@@ -1,0 +1,139 @@
+<!--Comentarioos-->
+<!DOCTYPE html>
+<head>
+    <title>Portafolio de servicios</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="main-nav__item" href="#inicio">Inicio</a> 
+        <a class="main-nav__item" href="#quiensoy">¿Quién soy?</a> 
+        <a class="main-nav__item" href="#habilidades">Habilidades</a>
+        <a class="main-nav__item" href="#contacto">Contacto</a> 
+        <a class="main-nav__item" href="#portafolio1" id="portafolio">Portafolio</a> 
+    </nav>
+    
+    <section id="inicio">
+        <article>
+            <h1> <span>MARÍA BÁRBARA</span> <span>PÉREZ MARÍN</span></h1>
+            <h2> <span>_FRONTEND</span> <span>DEVELOPER</span></h2>
+            <nav class="grupo-de-botones">
+                <a href="./hojadevida/Hoja de vida.pdf" target="_blank" class="buttom-curri" id="boton1">Curriculum</a>
+                <a href="#contacto"  class="buttom-contact" id="boton2">Contacto</a>
+            </nav>  
+        </article>
+        <picture class="aboutMeRight">
+            <img src="./imagenes/BarbaraFoto.jpeg" alt="foto de la persona">
+        </picture>
+    </section>
+
+    <section id="quiensoy">
+        <section class="quiensoy">
+            <article class="quiensoy-article">
+                <h2 class="purple-light">¿Quién soy?</h2>
+                <p id="parrafo">
+                    Soy psicologa de profesión pero, decidí incursionar en el mundo de la tecología. trabajo como desarrolladora Front-end independiente.siempre he sido alguien que tiene tanto un lado creativo como lógico.
+                    Cuando descubrí el diseño web en la universidad, me di cuenta que encajaría perfectamente. Podría usar mi lado
+                    creativo para diseñar y mi lado logico para codificar.
+                </p>
+            </article>
+            <picture class="img1">
+                <img src="./imagenes/saly-24.png" alt="imagen de una mano">
+            </picture>
+        </section>
+    </section>
+
+    <section id="portafolio1">
+        <span> <i class="fa-solid fa-eye"></i>  Portafolio </span>
+        <article>
+            <p> <h1> Con frecuencia su sitio web es la primera impresión que reciben sus clientes, así que asegúrese de que sea una buena impresión </h1> </p>
+        </article>
+    
+        <section id="proyects">
+            <article>
+                <picture>
+                    <img src="./imagenes/RicarjoArjona.jpg" alt="imagen de Ricardo Arjona">
+                </picture>
+                <nav>
+                    <a href="https://barbaraperez120500.github.io/Ricardo_Arjona_Bit/" target="_blank" class="buttom-git" 
+                    id="boton-G"><i class="fa-sharp fa-solid fa-earth-americas"></i></a>
+                    <a href="https://github.com/BarbaraPerez120500/Ricardo_Arjona_Bit" target="_blank" class="buttom-repro" id="boton-L"><i class="fa-brands fa-github-alt"></i></a>
+                </nav>
+                <h4>Pagina web</h4>
+                <p>Landing page para un artista músical</p>
+            </article>
+
+            <article>
+                <picture class="proyects-img">
+                    <img src="./imagenes/QR.jpeg" alt="imagen de un QR">
+                </picture>
+                <nav class="boton-proyecto">
+                    <a href="" target="_blank" class="buttom-QR" 
+                    id="boton-G"><i class="fa-sharp fa-solid fa-earth-americas"></i></a>
+                    <a href="" target="_blank" class="bot-QR" id="boton-QR"><i class="fa-brands fa-github-alt"></i></a>
+                </nav>
+                <h4>Menu QR</h4>
+                <p>Codigo QR para escanear un <menu></menu></p>
+            </article>
+
+            <article>
+                <picture class="proyects-img">
+                    <img src="./imagenes/perfume.jpeg" alt="imagen de un logo">
+                </picture>
+                <nav class="boton-perfume">
+                    <a href="" target="_blank" class="buttom-perfum" 
+                    id="boton-G"><i class="fa-sharp fa-solid fa-earth-americas"></i></a>
+                    <a href="" target="_blank" class="buttom-perfu" id="boton-perfu"><i class="fa-brands fa-github-alt"></i></a>
+                </nav>
+                <h4>Logo de una marca</h4>
+                <p>Post para promocionar una marca</p>
+            </article>
+        </section>
+        <!-- ¿cómo agregar un logo? -->
+    </section>
+
+    <section id="habilidades">
+        <section class="lenguajes-habilidades">
+        <article>
+            <h2>Lenguajes</h2>
+            <p>Tengo experiencia en el manejo de React.js,HTML, CSS y JavaScript</p>
+        </article>
+        <picture>
+            <img src="./imagenes/Html.png" alt="logo de html"> 
+            <img src="./imagenes/cssjpg.jpg" alt="logo de css">
+            <img src="./imagenes/javascript.png" alt="logo de javascript"> 
+            <img src="./imagenes/react.jpg" alt="logo de react"> 
+        </picture>
+
+        </section>
+    </section>
+
+    <section id="contacto">
+        <article>
+            <span>
+                <div>
+                    <h2>¡Únete!
+                    sígueme en mis redes sociales</h2>
+                    <h3>Contacto</h3>
+                    <a href="mailto:barby120500@gmail.com">
+                    <i class="fa-regular fa-envelope fa-2xl"></i></a>
+
+                    <a href="https://www.linkedin.com/in/psicologa-reclutamiento-barbaraperez/">
+                    <i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                    
+                    <a href="https://github.com/BarbaraPerez120500">
+                    <i class="fa-brands fa-github-alt fa-2xl"></i></a>
+                </div>
+            </span>
+
+            <form action="/formulario" method="post">
+                <label for="comentario">Comentario</label>
+                <textarea cols="50" rows="10" id="comentario" placeholder="Deja tú comentario"
+                    name="comentario">Quieres trabajar conmigo</textarea>
+                <button type="button">Enviar</button>
+            </form>
+        </article>
+    </section>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.navbar {
+    list-style: none;
+    padding: 2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    color: rgba(154, 128, 174, 1);
+}
+
+.navbar a{
+    margin-left: 3rem;
+}
+
+#portafolio {
+    background-color: white;
+    border-radius: 1rem;
+    border: 2px solid rgba(154, 128, 174, 1);
+    padding: 0.75rem;
+    font-size: 16px;
+    cursor: pointer;
+}

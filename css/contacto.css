@@ -1,0 +1,35 @@
+#contacto{
+    padding: 40px;
+}
+
+#contacto article {
+    display: flex;
+}
+
+
+#contacto article span {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#contacto article span div{
+    text-align: left;
+    width: 30%;
+}
+
+#contacto article form{
+    background-color: rgba(220, 150, 189, 1);
+    padding: 1rem 2rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 486px;   
+    border-radius: 4%;
+}
+
+#contacto article h3 {
+    color: rgba(154, 128, 174, 1);
+    padding: 1rem;
+}
+

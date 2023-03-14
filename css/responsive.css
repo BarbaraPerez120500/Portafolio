@@ -1,0 +1,11 @@
+@media only screen and (min-width: 600px) {
+    #portafolio1 {
+      padding: 2rem;
+    }
+  }
+
+@media only screen and (min-width: 600px) {
+    #habilidades {
+      padding: 2rem;
+    }
+  }
